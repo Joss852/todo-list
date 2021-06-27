@@ -1,0 +1,135 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    margin: 0px;
+    height: 100%;
+}
+
+/*
+    CSS PARA LA NAVBAR
+*/
+
+.navbar {
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: #581845;
+    border: solid #4D153C 1px;
+    align-items: center;
+}
+
+.navbar h1{
+    color: white;
+    margin: 0px;
+    display: inline;
+}
+
+.navbar ul {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    width: 100%;
+}
+
+.navbar li span {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a {
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    background-color: #581845;
+}
+
+.navbar a:hover {
+    background-color: #4D153C;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+/*
+    CSS PARA EL CONTENIDO
+*/
+
+.content {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    min-width: 170px;
+    max-width: 300px;
+    border: solid #ccc 1px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.content h1 {
+    padding: 4px;
+    letter-spacing: 1px;
+    text-align-last: center;
+    margin: 0px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #581845;
+}
+
+.content a {
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 4px;
+    margin-top:8px;
+    display: block;
+    width: 30px;
+    text-align-last: center;
+}
+
+.content .about {
+    background-color: green;
+    width: auto;
+}
+
+.content form label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.content form input {
+    display: block;
+}
+
+.content input:not([type="submit"])  {
+    display: block;
+    width: 170px;
+    border: solid #4D153C 1px;
+    border-radius: 0px;
+}
+
+#confirm {
+    background-color: #4D153C;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding: 4px;
+    width: 100%;
+    margin-top: 10px;
+    align-self: center;
+    letter-spacing: 1px;
+}
+
+hr {
+    background-color: #4D153C;
+    border-radius: 0px;
+    box-shadow: none;
+}

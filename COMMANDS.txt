@@ -1,0 +1,13 @@
+. pvenv/Scripts/activate
+
+export FLASK_APP=todo
+
+export FLASK_ENV=development
+
+export FLASK_DATABASE_HOST='localhost'
+
+export FLASK_DATABASE_PASSWORD='JossephM852@'
+
+export FLASK_DATABASE_USER='JM'
+
+export FLASK_DATABASE='todo_list'
